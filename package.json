@@ -1,0 +1,25 @@
+{
+  "name": "cse341-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingKacrae99/cse341-node.git"
+  },
+  "keywords": [],
+  "author": "King Emmanuel Aguomba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingKacrae99/cse341-node/issues"
+  },
+  "homepage": "https://github.com/KingKacrae99/cse341-node#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
