@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser')
-
+require('dotenv').config()
 /*******************************************
  * Creating an express application
  ******************************************/
@@ -29,11 +29,11 @@ app.use('/', router)
 /****************************
  * Running Port 
  ***************************/
-const PORT = 3000
+const port = process.env.PORT
 
 /*****************************
  * Server listener
  ****************************/
-app.listen(PORT, () => {
-    console.log("Web Server is listening at port " + PORT)
+app.listen(port, () => {
+    console.log("Web Server is listening at port " + port)
 });
